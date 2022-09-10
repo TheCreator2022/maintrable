@@ -13,3 +13,7 @@ body {
 .code-js .title:hover {
   text-shadow:0 0 2px yellow, 0 0 15px lightcyan;
 }
+
+.code-js .credits {
+  color:green;
+}
