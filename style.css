@@ -11,7 +11,7 @@ body {
 }
 
 .code-js .title:hover {
-  text-shadow:0 0 2px yellow, 0 0 15px lightcyan;
+  text-shadow:0 0 2px blue, 0 0 15px lightcyan;
 }
 
 .code-js .credits {
