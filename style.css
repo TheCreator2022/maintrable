@@ -1,0 +1,14 @@
+body {
+  color:lightcyan;
+  font-family:sans-serif;
+  transition-duration:3.5s;
+}
+
+.code-js .title {
+  transition-duration:2s;
+  color:tomato;
+}
+
+.code-js .title:hover {
+  text-shadow:0 0 2px yellow, 0 0 15px lightcyan;
+}
