@@ -42,3 +42,10 @@ body {
   --width-blob:55px;
   --height-blob:55px;
 }
+
+.blobs .play-btn {
+  text-decoration:underline;
+  color:black;
+  background:cyan;
+  font-family: sans-serif;
+}
