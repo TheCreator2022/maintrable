@@ -5,15 +5,40 @@ body {
   background:rgba(254, 254, 0, 0.85);
 }
 
-.code-js .title {
+.blobs .title {
   transition-duration:2s;
   color:tomato;
 }
 
-.code-js .title:hover {
+.blobs .title:hover {
   text-shadow:0 0 2px blue, 0 0 15px lightcyan;
 }
 
-.code-js .credits {
+.blobs .credits {
   color:green;
+}
+
+.blobs .blob {
+  border-radius:52%;
+  width:var(--width-blob);
+  height:var(--height-blob);
+  background: linear-gradient(lightcyan, cyan);
+  animation:blob 5s infinite;
+}
+
+@keyframes blob {
+  0% {
+    border-radius:2%;
+  }
+  50% {
+    border-radius:52%;
+  }
+  100% {
+    border-radius:62%;
+  }
+}
+
+:root {
+  --width-blob:55px;
+  --height-blob:55px;
 }
